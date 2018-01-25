@@ -83,10 +83,11 @@ serverb.lab.example.com | SUCCESS => {
 }
 ```
 
+Create templated role folders:
 ```
-$ ansible-galaxy init --off-line -p roles/ abc.example
+$ mkdir roles/
+$ ansible-galaxy init --offline -p roles/ myvhost
 $ tree roles/
-
 ```
 
 Notes:
