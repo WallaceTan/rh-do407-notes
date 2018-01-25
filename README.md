@@ -21,6 +21,10 @@ Ansible modules:
 * include_vars
 * 
 
+Exam objectives:
+* ansible-vault [create|decrypt|edit|encrypt|encrypt_string|rekey|view]
+** encrypt tar.gz file in a playbook
+
 Labs:
 * 66 playbook
 * 78 multiple play
