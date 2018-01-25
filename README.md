@@ -35,7 +35,23 @@ Labs:
 Commands:
 ```
 $ ansible-doc -l, --list  # List available modules
-$ ansible-doc stat
+```
+
+```
+$ ansible-doc __stat__   # ansible-doc [options] [__module name__]
+
+Output:
+> STAT    (/usr/lib/python2.7/site-packages/ansible/modules/files/stat.py)
+
+  Retrieves facts for a file similar to the linux/unix 'stat' command.
+
+Options (= is mandatory):
+
+- checksum_algorithm
+        Algorithm to determine checksum of file. Will throw an error if the host is unable to use
+        specified algorithm.
+        (Choices: sha1, sha224, sha256, sha384, sha512)[Default: sha1]
+...
 ```
 
 ```
