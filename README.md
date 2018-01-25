@@ -1,8 +1,29 @@
 # rh-do407-notes
 
+Ansible modules:
+* command
+* shell
+* ping
+* yum
+* lineinfile
+* copy
+* service
+* firewalld
+* debug
+* setup
+* get_url
+* uri
+* file
+* stat
+* 
+* 
+* 
+* 
+
 Commands:
 ```
 $ ansible-doc -l, --list  # List available modules
+$ ansible-doc stat
 ```
 
 ```
