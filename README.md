@@ -15,8 +15,20 @@ Ansible modules:
 * uri
 * file
 * stat
-* 
-* 
+
+Labs:
+* 66 playbook
+* 78 multiple play
+* __85__ LAB 3
+* 118 facts
+* 132 
+* __139__ LAB 4
+* 155 flow control
+* 162 handlers
+* 174 tags
+* 183 handling errors
+* __193__ LAB 5
+* 220 LAB 6
 * 
 * 
 
