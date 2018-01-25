@@ -1,4 +1,4 @@
 # rh-do407-notes
 
 Notes and Tips:
-* (Jinja2 is a templating engine for Python)[http://jinja.pocoo.org/docs/2.10/]
+* [Jinja2 is a templating engine for Python](http://jinja.pocoo.org/docs/2.10/)
