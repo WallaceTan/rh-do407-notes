@@ -21,7 +21,7 @@ Labs:
 * 78 multiple play
 * __85__ LAB 3
 * 118 facts
-* 132 
+* 132 inclusion
 * __139__ LAB 4
 * 155 flow control
 * 162 handlers
@@ -29,7 +29,7 @@ Labs:
 * 183 handling errors
 * __193__ LAB 5
 * 220 LAB 6
-* 
+* 235 create roles
 * 
 
 Commands:
@@ -81,6 +81,12 @@ serverb.lab.example.com | SUCCESS => {
     }, 
     "changed": false
 }
+```
+
+```
+$ ansible-galaxy init --off-line -p roles/ abc.example
+$ tree roles/
+
 ```
 
 Notes:
