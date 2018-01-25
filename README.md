@@ -15,6 +15,11 @@ Ansible modules:
 * uri
 * file
 * stat
+* template
+* add_host
+* include
+* include_vars
+* 
 
 Labs:
 * 66 playbook
@@ -30,7 +35,8 @@ Labs:
 * __193__ LAB 5
 * 220 LAB 6
 * 235 create roles - [rh-do407-dev-roles](https://github.com/WallaceTan/rh-do407-dev-roles)
-* 
+* 249 ansible-galaxy - []()
+* __257__ LAB 7
 
 Commands:
 ```
@@ -90,9 +96,21 @@ $ ansible-galaxy init --offline -p roles/ myvhost
 $ tree roles/
 ```
 
+Import or install new role:
+```
+$ ansible-galaxy install --help
+
+$ cat role2install.yml
+# From a webserver, where the role is packaged in a gzipped tar archive
+- src: https://webserver.example.com/files/sample.tgz
+  name: ftpserver-role
+
+$ ansible-galaxy install -r role2install.yml -p roles-dir/
+```
+
 Notes:
 * [Jinja2 is a templating engine for Python](http://jinja.pocoo.org/docs/2.10/)
-
+* result.changed, result.failed, result.success, result.skipped (https://gist.github.com/andreicristianpetcu/b892338de279af9dac067891579cad7d)
 
 Others:
 * [new trading for a living pdf](https://drive.google.com/open?id=1mSqBpsROfCTxnJIa_5K8KnDMkYICnac9)
