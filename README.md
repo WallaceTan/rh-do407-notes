@@ -2,7 +2,7 @@
 
 Commands:
 ```
-* ansible-doc -l, --list  # List available modules
+$ ansible-doc -l, --list  # List available modules
 ```
 
 Notes:
