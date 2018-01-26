@@ -118,14 +118,26 @@ $ ansible-galaxy install -r role2install.yml -p roles-dir/
 Notes:
 * [Jinja2 is a templating engine for Python](http://jinja.pocoo.org/docs/2.10/)
 * result.changed, result.failed, result.success, result.skipped (https://gist.github.com/andreicristianpetcu/b892338de279af9dac067891579cad7d)
+```
 
 Others:
+```
 * [new trading for a living pdf](https://drive.google.com/open?id=1mSqBpsROfCTxnJIa_5K8KnDMkYICnac9)
 ```
-* yum install -y 
+
+Yum tips:
+```
+* 
+```
+
+Setup X forwarding and using virt-manager to for graphical user interface:
+```
 * yum grouplist
 * yum groupinstall -y "Graphical Administration Tools"
-* yum install -y xorg-x11*
-* yum install virt-manager
-* ssh -X root@tower
+* [root@tower ~]# yum install -y xorg-x11*
+* [root@tower ~]# yum install -y virt-manager
+* [root@tower ~]# vagrant up
+* [root@tower ~]# virsh list
+* [xwindow-user@workstation ~]# ssh -X root@tower
+* [root@tower ~]# virt-manager
 ```
