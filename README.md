@@ -19,11 +19,14 @@ Ansible modules:
 * add_host
 * include
 * include_vars
-* 
+* user
+* group
 
 Exam objectives:
 * ansible-vault [create|decrypt|edit|encrypt|encrypt_string|rekey|view]
 ** encrypt tar.gz file in a playbook
+* Create user and group in ansible playbook, use with_items loop to create from an array list.
+* 
 
 Labs:
 * 66 playbook
@@ -118,3 +121,11 @@ Notes:
 
 Others:
 * [new trading for a living pdf](https://drive.google.com/open?id=1mSqBpsROfCTxnJIa_5K8KnDMkYICnac9)
+```
+* yum install -y 
+* yum grouplist
+* yum groupinstall -y "Graphical Administration Tools"
+* yum install -y xorg-x11*
+* yum install virt-manager
+* ssh -X root@tower
+```
